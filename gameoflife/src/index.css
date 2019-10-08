@@ -12,11 +12,11 @@ body {
   }
 
 .off {
-  background-color: lightgray;
+  background-color: rgba(211,211,211,0.2);
 }
 
 .on {
-  background-color: green;
+  background-color: rgba(0,255,0,0.2);
 }
   
 .box:hover { 
