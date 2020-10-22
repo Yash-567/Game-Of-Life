@@ -15,6 +15,7 @@ class Box extends React.Component{
         )
     }
 }
+
 class Grid extends React.Component{
     render(){
         const width = (this.props.cols * 14) ;
@@ -43,6 +44,7 @@ class Grid extends React.Component{
         )
     }
 }
+
 class Buttons extends React.Component{
     handleSelect=(evt)=>{
         this.props.gridSize(evt)
@@ -81,6 +83,7 @@ class Buttons extends React.Component{
         )
     }
 }
+
 class Main extends React.Component{
     constructor(){
         super();
@@ -203,8 +206,8 @@ class Main extends React.Component{
         )
     }
 }
+
 function arrayClone(arr){
     return JSON.parse(JSON.stringify(arr))
 }
 ReactDOM.render(<Main/>, document.getElementById('root'));
-
